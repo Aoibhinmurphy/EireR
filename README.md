@@ -278,5 +278,4 @@ Contributions welcome! If you find a dataset that should be included or a data s
 
 \- [httr2 documentation](https://httr2.r-lib.org/)
 
-*EireR was developed as part of an academic project at the University of Würzburg.*\
-*Built with ❤️ for all-island Ireland research.*
+*EireR was developed as part of an academic project at the University of Würzburg.*
