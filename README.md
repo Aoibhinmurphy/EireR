@@ -4,15 +4,13 @@
 
 ## Overview
 
-Conducting geospatial analysis across the island of Ireland presents a persistent challenge for researchers, ecologists, planners, and data scientists. Although the island of Ireland functions as a single geographic system, it is served by two separate governmental jurisdictions, each maintaining its own spatial data infrastructure, data portals, coordinate reference systems, and dataset standards. As a result, accessing and integrating geospatial data for all-island analyses can be time-consuming, often requiring users to navigate multiple data providers, reconcile differing naming conventions, and harmonise datasets before analysis can begin.
+Conducting geospatial analysis across the island of Ireland presents a persistent challenge. Although Ireland functions as a single geographic system, it is served by two separate governmental jurisdictions, each maintaining its own spatial data infrastructure, data portals, coordinate reference systems, and dataset standards. As a result, researchers often need to navigate multiple websites, APIs, and download services before analysis can begin.
 
 **EireR was created to simplify this process.**
 
-Named after the Irish word **Éire** (used in *Gaeilge* to refer to the island of Ireland and derived from the Old Irish word **Ériu**), EireR reflects the package's central aim: providing seamless access to geospatial data for the entire island rather than within a single jurisdiction.
+Named after the Irish word **Éire** (used in *Gaeilge* to refer to the island of Ireland and derived from the Old Irish word **Ériu**), EireR reflects the package's central aim: providing seamless access to geospatial data across the entire island rather than within a single jurisdiction.
 
-EireR is a streamlined gateway to Irish geospatial data. The package provides a consistent interface for discovering, downloading, and harmonising openly licensed datasets from across both the Republic of Ireland and Northern Ireland.
-
-By bringing data from multiple providers together within a single workflow, EireR removes the need to navigate multiple portals, reconcile incompatible formats, and manually integrate datasets from different jurisdictions. This is particularly valuable for all-island analyses, where data frequently cross administrative boundaries and institutional data systems. The result is fast, reproducible, and harmonised access to Irish geospatial data directly within R, allowing users to move seamlessly from data discovery to analysis.
+EireR is a unified gateway to Irish geospatial data. Through a single package and a consistent interface, users can discover, download, and access openly licensed datasets from both the Republic of Ireland and Northern Ireland. By connecting directly to public APIs, web services, and open-data portals, EireR brings all-island geospatial data together in one place, enabling fast, reproducible, and harmonised access directly within R.
 
 The package streamlines the entire data pipeline from discovery to download:
 
