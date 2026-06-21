@@ -1,16 +1,33 @@
 Package: EireR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Harmonised Geospatial Data Access for the Island of Ireland
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Aoibhin", "Murphy",
+      email = "aoibhinmurphy246@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Provides harmonised geospatial data for the island of Ireland,
+    combining Republic of Ireland sources (EPA, Tailte Éireann) and Northern
+    Ireland sources (DAERA, OpenDataNI). Auto-discovers 1023 datasets via
+    EPA GeoServer WFS, ArcGIS Hub REST API, and OpenDataNI CKAN API.
+    All data is returned in Irish Transverse Mercator (EPSG:2157).
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+    sf,
+    dplyr,
+    httr2,
+    rappdirs,
+    cli,
+    stringr,
+    ggplot2,
+    tools
+Config/roxygen2/version: 8.0.0
+Depends: 
+    R (>= 4.1.0)
+
+    
